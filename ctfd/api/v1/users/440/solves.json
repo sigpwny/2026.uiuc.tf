@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge": {"name": "Secret Account", "value": 50, "id": 20, "category": "osint"}, "user": {"name": "smartfella", "id": 440}, "type": "correct", "challenge_id": 20, "team": {"name": "THEN?!WHEN?!", "id": 224}, "id": 19304, "date": "2026-08-08T19:26:04.996450+00:00"}], "meta": {"count": 1}}

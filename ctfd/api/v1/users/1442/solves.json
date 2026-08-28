@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge": {"name": "Secret Account", "value": 50, "id": 20, "category": "osint"}, "user": {"name": "jancis", "id": 1442}, "type": "correct", "challenge_id": 20, "team": {"name": "Latvian Lattice Lovers", "id": 380}, "id": 8180, "date": "2026-08-08T06:15:34.592785+00:00"}], "meta": {"count": 1}}

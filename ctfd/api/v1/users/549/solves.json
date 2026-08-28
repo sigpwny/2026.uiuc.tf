@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge": {"name": "Something Handmade", "value": 311, "id": 16, "category": "osint"}, "user": {"name": "n1m5n", "id": 549}, "type": "correct", "challenge_id": 16, "team": {"name": "tj/sin", "id": 284}, "id": 543, "date": "2026-08-08T00:25:18.521584+00:00"}], "meta": {"count": 1}}

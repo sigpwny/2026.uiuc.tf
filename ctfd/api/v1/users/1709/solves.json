@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge": {"name": "Secret Account", "value": 50, "id": 20, "category": "osint"}, "user": {"name": "drahnoel", "id": 1709}, "type": "correct", "challenge_id": 20, "team": {"name": "Pwn-la-Chapelle", "id": 163}, "id": 14222, "date": "2026-08-08T12:04:48.275457+00:00"}], "meta": {"count": 1}}

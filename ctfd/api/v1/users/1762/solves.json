@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge": {"name": "Secret Account", "value": 50, "id": 20, "category": "osint"}, "user": {"name": "Maezztro", "id": 1762}, "type": "correct", "challenge_id": 20, "team": {"name": "cybercrypt_", "id": 312}, "id": 15203, "date": "2026-08-08T13:15:03.827701+00:00"}], "meta": {"count": 1}}

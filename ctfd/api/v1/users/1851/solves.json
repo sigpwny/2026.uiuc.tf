@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge": {"name": "Secret Account", "value": 50, "id": 20, "category": "osint"}, "user": {"name": "SoulDecrypt", "id": 1851}, "type": "correct", "challenge_id": 20, "team": {"name": "Echelon Obscura", "id": 734}, "id": 23653, "date": "2026-08-09T13:26:21.836491+00:00"}], "meta": {"count": 1}}

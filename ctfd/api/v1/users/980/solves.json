@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge": {"name": "Childhood Memories", "value": 50, "id": 18, "category": "osint"}, "user": {"name": "Lone Wolf", "id": 980}, "type": "correct", "challenge_id": 18, "team": {"name": "Team Bitsec", "id": 260}, "id": 11529, "date": "2026-08-08T09:23:05.706607+00:00"}], "meta": {"count": 1}}
