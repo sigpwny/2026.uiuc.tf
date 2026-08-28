@@ -8,7 +8,7 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="theme-color" content="#f5f0d9">
   <meta name="ctfd-api-base" content="/ctfd/api/v1">
-  
+
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
@@ -46,14 +46,10 @@
       <a href="/challenges" class="px-2.5 py-1 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Challenges</a><a href="/scoreboard" class="px-2.5 py-1 font-bold no-underline bg-ink text-paper"><span class="sr-only">Current page: </span>Scoreboard</a><a href="/users" class="px-2.5 py-1 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Users</a><a href="/teams" class="px-2.5 py-1 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Teams</a>
     </nav>
     <div class="ms-auto flex items-center gap-x-3 max-lg:hidden">
-      
-            <a href="/login" class="px-2.5 py-1 font-bold text-ink no-underline hover:bg-accent-blue hover:text-paper">
-              Log in
-            </a>
-            <a href="/register" class="btn btn-red px-2.5! py-1!">
-              Register
-            </a>
-          
+
+
+
+
     </div>
 
     <details class="relative ms-auto lg:hidden" id="nav-menu">
@@ -63,14 +59,10 @@
           <a href="/challenges" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Challenges</a><a href="/scoreboard" class="block px-3.5 py-2.5 font-bold no-underline bg-ink text-paper">Scoreboard</a><a href="/users" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Users</a><a href="/teams" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Teams</a>
         </nav>
         <div class="grid border-t-2 border-ink">
-          
-                <a href="/login" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">
-                  Log in
-                </a>
-                <a href="/register" class="block bg-accent-red px-3.5 py-2.5 text-center font-bold text-paper no-underline hover:bg-highlight-pink hover:text-ink">
-                  Register
-                </a>
-              
+
+
+
+
         </div>
       </div>
     </details>
@@ -79,7 +71,7 @@
 
 <script type="module">var e=document.querySelector(`#nav-menu`);e&&(document.addEventListener(`click`,t=>{e.open&&t.target instanceof Node&&!e.contains(t.target)&&(e.open=!1)}),document.addEventListener(`keydown`,t=>{t.key===`Escape`&&e.open&&(e.open=!1)}));</script>
     <main id="main" class="mx-auto w-full grow px-4 pt-8 pb-20 text-lg leading-relaxed lg:text-xl max-w-[880px]">
-      
+
   <header class="mt-2 mb-9">
   <h1 class="h-page">Scoreboard</h1>
   <nav aria-label="Division" class="mt-5 flex flex-wrap items-center gap-2">
@@ -100,7 +92,7 @@
           <tr>
             <th class="w-16">Place</th>
             <th>Order</th>
-            
+
             <th class="text-right">Score</th>
           </tr>
         </thead>
@@ -112,7 +104,7 @@
                 <td data-cell="name">
                   <a href="/teams/67">no rev/pwn no life</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   5,152
                 </td>
@@ -123,7 +115,7 @@
                 <td data-cell="name">
                   <a href="/teams/566">krauq</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   4,487
                 </td>
@@ -134,7 +126,7 @@
                 <td data-cell="name">
                   <a href="/teams/170">yuuluo</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   4,386
                 </td>
@@ -145,7 +137,7 @@
                 <td data-cell="name">
                   <a href="/teams/322">blimpers</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   4,364
                 </td>
@@ -156,7 +148,7 @@
                 <td data-cell="name">
                   <a href="/teams/101">UIT-W4nSecLab</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   4,274
                 </td>
@@ -167,7 +159,7 @@
                 <td data-cell="name">
                   <a href="/teams/182">W4llz</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   4,207
                 </td>
@@ -178,7 +170,7 @@
                 <td data-cell="name">
                   <a href="/teams/395">teamh4c</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   4,189
                 </td>
@@ -189,7 +181,7 @@
                 <td data-cell="name">
                   <a href="/teams/316">H-T8</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   4,038
                 </td>
@@ -200,7 +192,7 @@
                 <td data-cell="name">
                   <a href="/teams/3">YunSee</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   4,010
                 </td>
@@ -211,7 +203,7 @@
                 <td data-cell="name">
                   <a href="/teams/304">Thinking Tinkerers</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,744
                 </td>
@@ -222,7 +214,7 @@
                 <td data-cell="name">
                   <a href="/teams/656">kq</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,525
                 </td>
@@ -233,7 +225,7 @@
                 <td data-cell="name">
                   <a href="/teams/189">DCBA</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,492
                 </td>
@@ -244,7 +236,7 @@
                 <td data-cell="name">
                   <a href="/teams/710">InitCredGang</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,463
                 </td>
@@ -255,7 +247,7 @@
                 <td data-cell="name">
                   <a href="/teams/385">v1olet</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,435
                 </td>
@@ -266,7 +258,7 @@
                 <td data-cell="name">
                   <a href="/teams/717">奶龍大冒險</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,364
                 </td>
@@ -277,7 +269,7 @@
                 <td data-cell="name">
                   <a href="/teams/233">SYZD</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,311
                 </td>
@@ -288,7 +280,7 @@
                 <td data-cell="name">
                   <a href="/teams/376">4n0nym0us</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,297
                 </td>
@@ -299,7 +291,7 @@
                 <td data-cell="name">
                   <a href="/teams/518">valgrind</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,190
                 </td>
@@ -310,7 +302,7 @@
                 <td data-cell="name">
                   <a href="/teams/187">Lv1x</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,175
                 </td>
@@ -321,7 +313,7 @@
                 <td data-cell="name">
                   <a href="/teams/261">GasMask</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,152
                 </td>
@@ -332,7 +324,7 @@
                 <td data-cell="name">
                   <a href="/teams/426">UltramanEnjoyer</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,127
                 </td>
@@ -343,7 +335,7 @@
                 <td data-cell="name">
                   <a href="/teams/348">Security Hub</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,117
                 </td>
@@ -354,7 +346,7 @@
                 <td data-cell="name">
                   <a href="/teams/196">InfosecPTIT</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,103
                 </td>
@@ -365,7 +357,7 @@
                 <td data-cell="name">
                   <a href="/teams/496">0xfun</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,090
                 </td>
@@ -376,7 +368,7 @@
                 <td data-cell="name">
                   <a href="/teams/314">CTF.mn</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,073
                 </td>
@@ -387,7 +379,7 @@
                 <td data-cell="name">
                   <a href="/teams/104">Xylo</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,045
                 </td>
@@ -398,7 +390,7 @@
                 <td data-cell="name">
                   <a href="/teams/450">Skånepatrullen</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   3,009
                 </td>
@@ -409,7 +401,7 @@
                 <td data-cell="name">
                   <a href="/teams/225">Team Pri5m</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,916
                 </td>
@@ -420,7 +412,7 @@
                 <td data-cell="name">
                   <a href="/teams/123">F0undM3</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,895
                 </td>
@@ -431,7 +423,7 @@
                 <td data-cell="name">
                   <a href="/teams/323">entropysec</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,892
                 </td>
@@ -442,7 +434,7 @@
                 <td data-cell="name">
                   <a href="/teams/191">shibaaa&#39;s friend</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,801
                 </td>
@@ -453,7 +445,7 @@
                 <td data-cell="name">
                   <a href="/teams/744">0xZinoria</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,655
                 </td>
@@ -464,7 +456,7 @@
                 <td data-cell="name">
                   <a href="/teams/378">BKISC</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,569
                 </td>
@@ -475,7 +467,7 @@
                 <td data-cell="name">
                   <a href="/teams/399">Breach Cyber Security</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,568
                 </td>
@@ -486,7 +478,7 @@
                 <td data-cell="name">
                   <a href="/teams/148">AMN</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,502
                 </td>
@@ -497,7 +489,7 @@
                 <td data-cell="name">
                   <a href="/teams/346">A8N0RM4L15M</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,496
                 </td>
@@ -508,7 +500,7 @@
                 <td data-cell="name">
                   <a href="/teams/120">MindCrafters</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,477
                 </td>
@@ -519,7 +511,7 @@
                 <td data-cell="name">
                   <a href="/teams/154">Dunderpatrullen</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,457
                 </td>
@@ -530,7 +522,7 @@
                 <td data-cell="name">
                   <a href="/teams/216">AltayCTF</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,426
                 </td>
@@ -541,7 +533,7 @@
                 <td data-cell="name">
                   <a href="/teams/4">Ganesh</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,421
                 </td>
@@ -552,7 +544,7 @@
                 <td data-cell="name">
                   <a href="/teams/76">1nf1n1ty</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,344
                 </td>
@@ -563,7 +555,7 @@
                 <td data-cell="name">
                   <a href="/teams/722">Call the Team</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,343
                 </td>
@@ -574,7 +566,7 @@
                 <td data-cell="name">
                   <a href="/teams/246">NoPCAP</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,341
                 </td>
@@ -585,7 +577,7 @@
                 <td data-cell="name">
                   <a href="/teams/29">PİTO EDUBOUNTY</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,158
                 </td>
@@ -596,7 +588,7 @@
                 <td data-cell="name">
                   <a href="/teams/177">Snipersss</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   2,025
                 </td>
@@ -607,7 +599,7 @@
                 <td data-cell="name">
                   <a href="/teams/172">WillHackForBeer</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,967
                 </td>
@@ -618,7 +610,7 @@
                 <td data-cell="name">
                   <a href="/teams/106">AAA</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,925
                 </td>
@@ -629,7 +621,7 @@
                 <td data-cell="name">
                   <a href="/teams/250">N33d_GP7</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,888
                 </td>
@@ -640,7 +632,7 @@
                 <td data-cell="name">
                   <a href="/teams/789">JordanSec</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,883
                 </td>
@@ -651,7 +643,7 @@
                 <td data-cell="name">
                   <a href="/teams/737">LeetSh4d0ws</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,878
                 </td>
@@ -662,7 +654,7 @@
                 <td data-cell="name">
                   <a href="/teams/461">Artemis</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,854
                 </td>
@@ -673,7 +665,7 @@
                 <td data-cell="name">
                   <a href="/teams/484">3.14159</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,803
                 </td>
@@ -684,7 +676,7 @@
                 <td data-cell="name">
                   <a href="/teams/137">Twilight.</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,688
                 </td>
@@ -695,7 +687,7 @@
                 <td data-cell="name">
                   <a href="/teams/115">Rober</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,647
                 </td>
@@ -706,7 +698,7 @@
                 <td data-cell="name">
                   <a href="/teams/20">Sudo_Siblings</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,618
                 </td>
@@ -717,7 +709,7 @@
                 <td data-cell="name">
                   <a href="/teams/37">dcua</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,615
                 </td>
@@ -728,7 +720,7 @@
                 <td data-cell="name">
                   <a href="/teams/186">TCP1P</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,607
                 </td>
@@ -739,7 +731,7 @@
                 <td data-cell="name">
                   <a href="/teams/140">D3CRYPT3D</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,564
                 </td>
@@ -750,7 +742,7 @@
                 <td data-cell="name">
                   <a href="/teams/51">NuttyShell</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,557
                 </td>
@@ -761,7 +753,7 @@
                 <td data-cell="name">
                   <a href="/teams/727">SOC²</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,552
                 </td>
@@ -772,7 +764,7 @@
                 <td data-cell="name">
                   <a href="/teams/258">USTH_Ex0dia</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,534
                 </td>
@@ -783,7 +775,7 @@
                 <td data-cell="name">
                   <a href="/teams/23">sys_adm1ns</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,509
                 </td>
@@ -794,7 +786,7 @@
                 <td data-cell="name">
                   <a href="/teams/343">千百问</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,455
                 </td>
@@ -805,7 +797,7 @@
                 <td data-cell="name">
                   <a href="/teams/163">Pwn-la-Chapelle</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,423
                 </td>
@@ -816,7 +808,7 @@
                 <td data-cell="name">
                   <a href="/teams/317">CipherScribes</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,411
                 </td>
@@ -827,7 +819,7 @@
                 <td data-cell="name">
                   <a href="/teams/512">Abdelkader</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,399
                 </td>
@@ -838,7 +830,7 @@
                 <td data-cell="name">
                   <a href="/teams/683">Jun Pavilion</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,398
                 </td>
@@ -849,7 +841,7 @@
                 <td data-cell="name">
                   <a href="/teams/765">AIRvanguard</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,383
                 </td>
@@ -860,7 +852,7 @@
                 <td data-cell="name">
                   <a href="/teams/217">NoSleep</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,377
                 </td>
@@ -871,7 +863,7 @@
                 <td data-cell="name">
                   <a href="/teams/38">Nattt</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,354
                 </td>
@@ -882,7 +874,7 @@
                 <td data-cell="name">
                   <a href="/teams/181">WiredIn</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,338
                 </td>
@@ -893,7 +885,7 @@
                 <td data-cell="name">
                   <a href="/teams/684">MiCayCapDo7</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,294
                 </td>
@@ -904,7 +896,7 @@
                 <td data-cell="name">
                   <a href="/teams/834">SickberChai</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,286
                 </td>
@@ -915,7 +907,7 @@
                 <td data-cell="name">
                   <a href="/teams/151">CSU CTF TEAM</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,283
                 </td>
@@ -926,7 +918,7 @@
                 <td data-cell="name">
                   <a href="/teams/966">Jiiiiiiiiiiiiii_and_Nini</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,243
                 </td>
@@ -937,7 +929,7 @@
                 <td data-cell="name">
                   <a href="/teams/517">antiskill</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,194
                 </td>
@@ -948,7 +940,7 @@
                 <td data-cell="name">
                   <a href="/teams/95">0xCCCCCC</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,193
                 </td>
@@ -959,7 +951,7 @@
                 <td data-cell="name">
                   <a href="/teams/587">0x4B1D</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,164
                 </td>
@@ -970,7 +962,7 @@
                 <td data-cell="name">
                   <a href="/teams/53">COC Getkip</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,151
                 </td>
@@ -981,7 +973,7 @@
                 <td data-cell="name">
                   <a href="/teams/532">Wade</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,149
                 </td>
@@ -992,7 +984,7 @@
                 <td data-cell="name">
                   <a href="/teams/698">0xV01D</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,120
                 </td>
@@ -1003,7 +995,7 @@
                 <td data-cell="name">
                   <a href="/teams/754">Bananna</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,113
                 </td>
@@ -1014,7 +1006,7 @@
                 <td data-cell="name">
                   <a href="/teams/404">Cars</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,105
                 </td>
@@ -1025,7 +1017,7 @@
                 <td data-cell="name">
                   <a href="/teams/1029">forfun</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,061
                 </td>
@@ -1036,7 +1028,7 @@
                 <td data-cell="name">
                   <a href="/teams/1052">xing</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,021
                 </td>
@@ -1047,7 +1039,7 @@
                 <td data-cell="name">
                   <a href="/teams/786">AI AI Everywhere</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   1,019
                 </td>
@@ -1058,7 +1050,7 @@
                 <td data-cell="name">
                   <a href="/teams/360">localhost969</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   998
                 </td>
@@ -1069,7 +1061,7 @@
                 <td data-cell="name">
                   <a href="/teams/112">Bmstushka</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   968
                 </td>
@@ -1080,7 +1072,7 @@
                 <td data-cell="name">
                   <a href="/teams/490">Byt3hunters</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   964
                 </td>
@@ -1091,7 +1083,7 @@
                 <td data-cell="name">
                   <a href="/teams/309">chp0ck3r$</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   958
                 </td>
@@ -1102,7 +1094,7 @@
                 <td data-cell="name">
                   <a href="/teams/30">paddystinian</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   921
                 </td>
@@ -1113,7 +1105,7 @@
                 <td data-cell="name">
                   <a href="/teams/671">4rthur</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   884
                 </td>
@@ -1124,7 +1116,7 @@
                 <td data-cell="name">
                   <a href="/teams/43">GPT-1110v2</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   815
                 </td>
@@ -1135,7 +1127,7 @@
                 <td data-cell="name">
                   <a href="/teams/462">NOnameOPerators</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   812
                 </td>
@@ -1146,7 +1138,7 @@
                 <td data-cell="name">
                   <a href="/teams/783">flag{}___Orz</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   812
                 </td>
@@ -1157,7 +1149,7 @@
                 <td data-cell="name">
                   <a href="/teams/711">THR34DS_C1TY</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   779
                 </td>
@@ -1168,7 +1160,7 @@
                 <td data-cell="name">
                   <a href="/teams/398">CS Team - Inatel</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   776
                 </td>
@@ -1179,7 +1171,7 @@
                 <td data-cell="name">
                   <a href="/teams/628">Rasmalai</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   771
                 </td>
@@ -1190,7 +1182,7 @@
                 <td data-cell="name">
                   <a href="/teams/16">EDISEC</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   756
                 </td>
@@ -1201,7 +1193,7 @@
                 <td data-cell="name">
                   <a href="/teams/873">4xNoobs</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   756
                 </td>
@@ -1212,7 +1204,7 @@
                 <td data-cell="name">
                   <a href="/teams/381">LockinMorPheaTong</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   745
                 </td>
@@ -1223,7 +1215,7 @@
                 <td data-cell="name">
                   <a href="/teams/22">M3RC3N4RY</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   742
                 </td>
@@ -1234,7 +1226,7 @@
                 <td data-cell="name">
                   <a href="/teams/213">Dawn</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   732
                 </td>
@@ -1245,7 +1237,7 @@
                 <td data-cell="name">
                   <a href="/teams/608">ite25</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   715
                 </td>
@@ -1256,7 +1248,7 @@
                 <td data-cell="name">
                   <a href="/teams/454">Fisabilillah</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   714
                 </td>
@@ -1267,7 +1259,7 @@
                 <td data-cell="name">
                   <a href="/teams/206">milworms</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   701
                 </td>
@@ -1278,7 +1270,7 @@
                 <td data-cell="name">
                   <a href="/teams/440">HellKitty</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   691
                 </td>
@@ -1289,7 +1281,7 @@
                 <td data-cell="name">
                   <a href="/teams/344">豆沙包</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   690
                 </td>
@@ -1300,7 +1292,7 @@
                 <td data-cell="name">
                   <a href="/teams/114">mol l7anot</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   652
                 </td>
@@ -1311,7 +1303,7 @@
                 <td data-cell="name">
                   <a href="/teams/829">B4</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   645
                 </td>
@@ -1322,7 +1314,7 @@
                 <td data-cell="name">
                   <a href="/teams/229">TahSec</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   644
                 </td>
@@ -1333,7 +1325,7 @@
                 <td data-cell="name">
                   <a href="/teams/443">thenyx</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   618
                 </td>
@@ -1344,7 +1336,7 @@
                 <td data-cell="name">
                   <a href="/teams/513">full_weak_engineer</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   598
                 </td>
@@ -1355,7 +1347,7 @@
                 <td data-cell="name">
                   <a href="/teams/14">exploiitm</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   558
                 </td>
@@ -1366,7 +1358,7 @@
                 <td data-cell="name">
                   <a href="/teams/520">EveryOneButTheGirl</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   557
                 </td>
@@ -1377,7 +1369,7 @@
                 <td data-cell="name">
                   <a href="/teams/226">Sein_Family</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   555
                 </td>
@@ -1388,7 +1380,7 @@
                 <td data-cell="name">
                   <a href="/teams/56">SDA</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   551
                 </td>
@@ -1399,7 +1391,7 @@
                 <td data-cell="name">
                   <a href="/teams/47">El Sindicato Binario</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   533
                 </td>
@@ -1410,7 +1402,7 @@
                 <td data-cell="name">
                   <a href="/teams/402">Rea11y Annoying Bots(RAB)</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   524
                 </td>
@@ -1421,7 +1413,7 @@
                 <td data-cell="name">
                   <a href="/teams/699">roxy</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   510
                 </td>
@@ -1432,7 +1424,7 @@
                 <td data-cell="name">
                   <a href="/teams/803">【403_F0rb1dd3n】</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   504
                 </td>
@@ -1443,7 +1435,7 @@
                 <td data-cell="name">
                   <a href="/teams/495">BITSkrieg</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   495
                 </td>
@@ -1454,7 +1446,7 @@
                 <td data-cell="name">
                   <a href="/teams/431">NYSEC</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   476
                 </td>
@@ -1465,7 +1457,7 @@
                 <td data-cell="name">
                   <a href="/teams/26">spikeOne</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   475
                 </td>
@@ -1476,7 +1468,7 @@
                 <td data-cell="name">
                   <a href="/teams/569">MasterLuo</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   474
                 </td>
@@ -1487,7 +1479,7 @@
                 <td data-cell="name">
                   <a href="/teams/720">mxym</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   473
                 </td>
@@ -1498,7 +1490,7 @@
                 <td data-cell="name">
                   <a href="/teams/837">Rina</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   466
                 </td>
@@ -1509,7 +1501,7 @@
                 <td data-cell="name">
                   <a href="/teams/297">hackratic</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   455
                 </td>
@@ -1520,7 +1512,7 @@
                 <td data-cell="name">
                   <a href="/teams/999">h4ck4s3cur1ty</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   452
                 </td>
@@ -1531,7 +1523,7 @@
                 <td data-cell="name">
                   <a href="/teams/110">FAM-Sploit</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   451
                 </td>
@@ -1542,7 +1534,7 @@
                 <td data-cell="name">
                   <a href="/teams/224">THEN?!WHEN?!</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   451
                 </td>
@@ -1553,7 +1545,7 @@
                 <td data-cell="name">
                   <a href="/teams/445">bi0s</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   451
                 </td>
@@ -1564,7 +1556,7 @@
                 <td data-cell="name">
                   <a href="/teams/285">Avaq</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   441
                 </td>
@@ -1575,7 +1567,7 @@
                 <td data-cell="name">
                   <a href="/teams/91">Goober</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   441
                 </td>
@@ -1586,7 +1578,7 @@
                 <td data-cell="name">
                   <a href="/teams/497">bup11f</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   439
                 </td>
@@ -1597,7 +1589,7 @@
                 <td data-cell="name">
                   <a href="/teams/796">dhtson</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   437
                 </td>
@@ -1608,7 +1600,7 @@
                 <td data-cell="name">
                   <a href="/teams/1046">born to win</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   435
                 </td>
@@ -1619,7 +1611,7 @@
                 <td data-cell="name">
                   <a href="/teams/735">Ph0en1x</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   424
                 </td>
@@ -1630,7 +1622,7 @@
                 <td data-cell="name">
                   <a href="/teams/262">Axi0N</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   414
                 </td>
@@ -1641,7 +1633,7 @@
                 <td data-cell="name">
                   <a href="/teams/692">search_of_mystery</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   413
                 </td>
@@ -1652,7 +1644,7 @@
                 <td data-cell="name">
                   <a href="/teams/198">Ambr0s1a!</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   412
                 </td>
@@ -1663,7 +1655,7 @@
                 <td data-cell="name">
                   <a href="/teams/595">miniSpirit</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   400
                 </td>
@@ -1674,7 +1666,7 @@
                 <td data-cell="name">
                   <a href="/teams/734">Echelon Obscura</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   397
                 </td>
@@ -1685,7 +1677,7 @@
                 <td data-cell="name">
                   <a href="/teams/273">weekend_haxor</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   389
                 </td>
@@ -1696,7 +1688,7 @@
                 <td data-cell="name">
                   <a href="/teams/389">MeowSec</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   369
                 </td>
@@ -1707,7 +1699,7 @@
                 <td data-cell="name">
                   <a href="/teams/362">Ireland Without the RE</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   369
                 </td>
@@ -1718,7 +1710,7 @@
                 <td data-cell="name">
                   <a href="/teams/974">zahorse</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   360
                 </td>
@@ -1729,7 +1721,7 @@
                 <td data-cell="name">
                   <a href="/teams/195">Protego</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   351
                 </td>
@@ -1740,7 +1732,7 @@
                 <td data-cell="name">
                   <a href="/teams/244">Mamah aku mau lomba</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   339
                 </td>
@@ -1751,7 +1743,7 @@
                 <td data-cell="name">
                   <a href="/teams/194">EWUCSC_BEGINNER_SQUAD</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   339
                 </td>
@@ -1762,7 +1754,7 @@
                 <td data-cell="name">
                   <a href="/teams/970">a</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   339
                 </td>
@@ -1773,7 +1765,7 @@
                 <td data-cell="name">
                   <a href="/teams/1060">AegisOrder9173</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   323
                 </td>
@@ -1784,7 +1776,7 @@
                 <td data-cell="name">
                   <a href="/teams/693">byteforce</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   319
                 </td>
@@ -1795,7 +1787,7 @@
                 <td data-cell="name">
                   <a href="/teams/80">WeLoveSadieSink</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   317
                 </td>
@@ -1806,7 +1798,7 @@
                 <td data-cell="name">
                   <a href="/teams/241">SeaWhisper0</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   317
                 </td>
@@ -1817,7 +1809,7 @@
                 <td data-cell="name">
                   <a href="/teams/103">L4RP3RS</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   317
                 </td>
@@ -1828,7 +1820,7 @@
                 <td data-cell="name">
                   <a href="/teams/286">SoloMolo</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   312
                 </td>
@@ -1839,7 +1831,7 @@
                 <td data-cell="name">
                   <a href="/teams/436">DWY_YK</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   312
                 </td>
@@ -1850,7 +1842,7 @@
                 <td data-cell="name">
                   <a href="/teams/138">V&amp;N</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   312
                 </td>
@@ -1861,7 +1853,7 @@
                 <td data-cell="name">
                   <a href="/teams/124">hapu.core</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   312
                 </td>
@@ -1872,7 +1864,7 @@
                 <td data-cell="name">
                   <a href="/teams/438">libbabel.so</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   300
                 </td>
@@ -1883,7 +1875,7 @@
                 <td data-cell="name">
                   <a href="/teams/666">GOODy</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   300
                 </td>
@@ -1894,7 +1886,7 @@
                 <td data-cell="name">
                   <a href="/teams/441">TraChanhHV4</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   300
                 </td>
@@ -1905,7 +1897,7 @@
                 <td data-cell="name">
                   <a href="/teams/570">Sn3kBy7e</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   300
                 </td>
@@ -1916,7 +1908,7 @@
                 <td data-cell="name">
                   <a href="/teams/1037">iwannaeatbap</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   295
                 </td>
@@ -1927,7 +1919,7 @@
                 <td data-cell="name">
                   <a href="/teams/243">17promax</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   292
                 </td>
@@ -1938,7 +1930,7 @@
                 <td data-cell="name">
                   <a href="/teams/60">Zer0Clues</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   289
                 </td>
@@ -1949,7 +1941,7 @@
                 <td data-cell="name">
                   <a href="/teams/444">Mont5ab El2hwa</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   286
                 </td>
@@ -1960,7 +1952,7 @@
                 <td data-cell="name">
                   <a href="/teams/872">Gutsy Glitch Greppers</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   281
                 </td>
@@ -1971,7 +1963,7 @@
                 <td data-cell="name">
                   <a href="/teams/372">pwnlentoni</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   274
                 </td>
@@ -1982,7 +1974,7 @@
                 <td data-cell="name">
                   <a href="/teams/36">TandaApapun</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   269
                 </td>
@@ -1993,7 +1985,7 @@
                 <td data-cell="name">
                   <a href="/teams/474">Universitas Indo Global Mandiri</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   262
                 </td>
@@ -2004,7 +1996,7 @@
                 <td data-cell="name">
                   <a href="/teams/168">Cheba$hk1 CAU</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   262
                 </td>
@@ -2015,7 +2007,7 @@
                 <td data-cell="name">
                   <a href="/teams/234">NotCozyBear</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   262
                 </td>
@@ -2026,7 +2018,7 @@
                 <td data-cell="name">
                   <a href="/teams/702">ISFCR PESU</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   262
                 </td>
@@ -2037,7 +2029,7 @@
                 <td data-cell="name">
                   <a href="/teams/48">T34M ROOKIE</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   262
                 </td>
@@ -2048,7 +2040,7 @@
                 <td data-cell="name">
                   <a href="/teams/555">hanto</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   260
                 </td>
@@ -2059,7 +2051,7 @@
                 <td data-cell="name">
                   <a href="/teams/288">Spectors</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   252
                 </td>
@@ -2070,7 +2062,7 @@
                 <td data-cell="name">
                   <a href="/teams/25">XYPH3R</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   251
                 </td>
@@ -2081,7 +2073,7 @@
                 <td data-cell="name">
                   <a href="/teams/220">Cylvern Security</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   250
                 </td>
@@ -2092,7 +2084,7 @@
                 <td data-cell="name">
                   <a href="/teams/149">B4115</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   250
                 </td>
@@ -2103,7 +2095,7 @@
                 <td data-cell="name">
                   <a href="/teams/714">Aju speed</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   250
                 </td>
@@ -2114,7 +2106,7 @@
                 <td data-cell="name">
                   <a href="/teams/312">cybercrypt_</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   250
                 </td>
@@ -2125,7 +2117,7 @@
                 <td data-cell="name">
                   <a href="/teams/627">0x_0w1</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   250
                 </td>
@@ -2136,7 +2128,7 @@
                 <td data-cell="name">
                   <a href="/teams/758">WillHack4Coffee</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   250
                 </td>
@@ -2147,7 +2139,7 @@
                 <td data-cell="name">
                   <a href="/teams/54">mbappe</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   250
                 </td>
@@ -2158,7 +2150,7 @@
                 <td data-cell="name">
                   <a href="/teams/27">Diviriksas</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   250
                 </td>
@@ -2169,7 +2161,7 @@
                 <td data-cell="name">
                   <a href="/teams/305">USTC-NEBULA</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   250
                 </td>
@@ -2180,7 +2172,7 @@
                 <td data-cell="name">
                   <a href="/teams/537">peppa_pig</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   245
                 </td>
@@ -2191,7 +2183,7 @@
                 <td data-cell="name">
                   <a href="/teams/724">Shellskapsresan</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   245
                 </td>
@@ -2202,7 +2194,7 @@
                 <td data-cell="name">
                   <a href="/teams/501">GGs</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   239
                 </td>
@@ -2213,7 +2205,7 @@
                 <td data-cell="name">
                   <a href="/teams/452">ANULL</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   238
                 </td>
@@ -2224,7 +2216,7 @@
                 <td data-cell="name">
                   <a href="/teams/277">CyberLions</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   231
                 </td>
@@ -2235,7 +2227,7 @@
                 <td data-cell="name">
                   <a href="/teams/751">Caliphal Hounds</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   227
                 </td>
@@ -2246,7 +2238,7 @@
                 <td data-cell="name">
                   <a href="/teams/155">R0n1n</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   220
                 </td>
@@ -2257,7 +2249,7 @@
                 <td data-cell="name">
                   <a href="/teams/468">The Hexorcists</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   218
                 </td>
@@ -2268,7 +2260,7 @@
                 <td data-cell="name">
                   <a href="/teams/338">GeomRavage</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   217
                 </td>
@@ -2279,7 +2271,7 @@
                 <td data-cell="name">
                   <a href="/teams/396">ctr</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   217
                 </td>
@@ -2290,7 +2282,7 @@
                 <td data-cell="name">
                   <a href="/teams/549">C1ph3rM4n14c</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   212
                 </td>
@@ -2301,7 +2293,7 @@
                 <td data-cell="name">
                   <a href="/teams/695">UK Lawnmowing Team</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   212
                 </td>
@@ -2312,7 +2304,7 @@
                 <td data-cell="name">
                   <a href="/teams/424">cyb3rkn1ght.tdtu</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   212
                 </td>
@@ -2323,7 +2315,7 @@
                 <td data-cell="name">
                   <a href="/teams/442">TraceBash</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   212
                 </td>
@@ -2334,7 +2326,7 @@
                 <td data-cell="name">
                   <a href="/teams/609">gxngxngxn</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   212
                 </td>
@@ -2345,7 +2337,7 @@
                 <td data-cell="name">
                   <a href="/teams/373">UIT-Wanna.W1n</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   212
                 </td>
@@ -2356,7 +2348,7 @@
                 <td data-cell="name">
                   <a href="/teams/386">Cryptonite</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   212
                 </td>
@@ -2367,7 +2359,7 @@
                 <td data-cell="name">
                   <a href="/teams/1064">R00TKIT RAID3RS</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   201
                 </td>
@@ -2378,7 +2370,7 @@
                 <td data-cell="name">
                   <a href="/teams/249">Bugs B0unt3r</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   200
                 </td>
@@ -2389,7 +2381,7 @@
                 <td data-cell="name">
                   <a href="/teams/330">s3nt1n3l 5ynd1c4t3</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   200
                 </td>
@@ -2400,7 +2392,7 @@
                 <td data-cell="name">
                   <a href="/teams/92">SmallPotato</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   200
                 </td>
@@ -2411,7 +2403,7 @@
                 <td data-cell="name">
                   <a href="/teams/315">cybercracks</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   200
                 </td>
@@ -2422,7 +2414,7 @@
                 <td data-cell="name">
                   <a href="/teams/252">Byt3Force</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   200
                 </td>
@@ -2433,7 +2425,7 @@
                 <td data-cell="name">
                   <a href="/teams/13">0∃HϽ¯0Ꞁ</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   200
                 </td>
@@ -2444,7 +2436,7 @@
                 <td data-cell="name">
                   <a href="/teams/836">WhiteOps - AUI</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   200
                 </td>
@@ -2455,7 +2447,7 @@
                 <td data-cell="name">
                   <a href="/teams/34">Kokoci</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   200
                 </td>
@@ -2466,7 +2458,7 @@
                 <td data-cell="name">
                   <a href="/teams/548">Winterflake</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   200
                 </td>
@@ -2477,7 +2469,7 @@
                 <td data-cell="name">
                   <a href="/teams/364">CAPTCHA</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   200
                 </td>
@@ -2488,7 +2480,7 @@
                 <td data-cell="name">
                   <a href="/teams/863">W01F.EXE</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   191
                 </td>
@@ -2499,7 +2491,7 @@
                 <td data-cell="name">
                   <a href="/teams/602">ISCRDTU</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   188
                 </td>
@@ -2510,7 +2502,7 @@
                 <td data-cell="name">
                   <a href="/teams/653">Phish Paprikas</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   188
                 </td>
@@ -2521,7 +2513,7 @@
                 <td data-cell="name">
                   <a href="/teams/456">Perperikon</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   179
                 </td>
@@ -2532,7 +2524,7 @@
                 <td data-cell="name">
                   <a href="/teams/355">CrOwOatia</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   169
                 </td>
@@ -2543,7 +2535,7 @@
                 <td data-cell="name">
                   <a href="/teams/167">Street_Hackers</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   167
                 </td>
@@ -2554,7 +2546,7 @@
                 <td data-cell="name">
                   <a href="/teams/493">Crimson Defenk</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   162
                 </td>
@@ -2565,7 +2557,7 @@
                 <td data-cell="name">
                   <a href="/teams/475">Maple Bacon</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   162
                 </td>
@@ -2576,7 +2568,7 @@
                 <td data-cell="name">
                   <a href="/teams/231">Omnissiah</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   162
                 </td>
@@ -2587,7 +2579,7 @@
                 <td data-cell="name">
                   <a href="/teams/568">Cyb0x1</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   162
                 </td>
@@ -2598,7 +2590,7 @@
                 <td data-cell="name">
                   <a href="/teams/1005">C0vteam</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   162
                 </td>
@@ -2609,7 +2601,7 @@
                 <td data-cell="name">
                   <a href="/teams/239">newSTAR</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   162
                 </td>
@@ -2620,7 +2612,7 @@
                 <td data-cell="name">
                   <a href="/teams/283">TRISHUL CYBER SYNDICATS</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   154
                 </td>
@@ -2631,7 +2623,7 @@
                 <td data-cell="name">
                   <a href="/teams/32">hi</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2642,7 +2634,7 @@
                 <td data-cell="name">
                   <a href="/teams/477">RUSEC</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2653,7 +2645,7 @@
                 <td data-cell="name">
                   <a href="/teams/18">Pluto</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2664,7 +2656,7 @@
                 <td data-cell="name">
                   <a href="/teams/11">c4n0cch4n</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2675,7 +2667,7 @@
                 <td data-cell="name">
                   <a href="/teams/90">Pulse0x1337</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2686,7 +2678,7 @@
                 <td data-cell="name">
                   <a href="/teams/176">siXPloit</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2697,7 +2689,7 @@
                 <td data-cell="name">
                   <a href="/teams/491">cowsay</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2708,7 +2700,7 @@
                 <td data-cell="name">
                   <a href="/teams/118">BR4CU 5H1K4R1</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2719,7 +2711,7 @@
                 <td data-cell="name">
                   <a href="/teams/382">Black Terminal</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2730,7 +2722,7 @@
                 <td data-cell="name">
                   <a href="/teams/86">vuotnganchonggai</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2741,7 +2733,7 @@
                 <td data-cell="name">
                   <a href="/teams/331">m3emush</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2752,7 +2744,7 @@
                 <td data-cell="name">
                   <a href="/teams/637">InfoSecIITR</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2763,7 +2755,7 @@
                 <td data-cell="name">
                   <a href="/teams/240">0dys5eu5_R00t</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2774,7 +2766,7 @@
                 <td data-cell="name">
                   <a href="/teams/709">BU-ITI</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2785,7 +2777,7 @@
                 <td data-cell="name">
                   <a href="/teams/516">The Ordinary Players</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2796,7 +2788,7 @@
                 <td data-cell="name">
                   <a href="/teams/414">DragonSec SI</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2807,7 +2799,7 @@
                 <td data-cell="name">
                   <a href="/teams/694">BitBr34kers</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2818,7 +2810,7 @@
                 <td data-cell="name">
                   <a href="/teams/721">Pwncetta e Pecorino</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2829,7 +2821,7 @@
                 <td data-cell="name">
                   <a href="/teams/643">2_IIT_4_u</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2840,7 +2832,7 @@
                 <td data-cell="name">
                   <a href="/teams/318">Botzz</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2851,7 +2843,7 @@
                 <td data-cell="name">
                   <a href="/teams/6">chppi</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2862,7 +2854,7 @@
                 <td data-cell="name">
                   <a href="/teams/12">LockIn Box</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2873,7 +2865,7 @@
                 <td data-cell="name">
                   <a href="/teams/599">Unicorn Dreamers</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2884,7 +2876,7 @@
                 <td data-cell="name">
                   <a href="/teams/795">ICC UH</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2895,7 +2887,7 @@
                 <td data-cell="name">
                   <a href="/teams/209">Code red</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2906,7 +2898,7 @@
                 <td data-cell="name">
                   <a href="/teams/255">Futakura</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2917,7 +2909,7 @@
                 <td data-cell="name">
                   <a href="/teams/397">Dr!73r$</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2928,7 +2920,7 @@
                 <td data-cell="name">
                   <a href="/teams/691">YmFzZTY0</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2939,7 +2931,7 @@
                 <td data-cell="name">
                   <a href="/teams/793">husor</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2950,7 +2942,7 @@
                 <td data-cell="name">
                   <a href="/teams/59">[T-SHP] Sl0pium</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2961,7 +2953,7 @@
                 <td data-cell="name">
                   <a href="/teams/238">Antárticos</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2972,7 +2964,7 @@
                 <td data-cell="name">
                   <a href="/teams/1033">Goodwill Mischief</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   150
                 </td>
@@ -2983,7 +2975,7 @@
                 <td data-cell="name">
                   <a href="/teams/633">Undercover Boss</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   134
                 </td>
@@ -2994,7 +2986,7 @@
                 <td data-cell="name">
                   <a href="/teams/824">CyberTaskForce Zero</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   126
                 </td>
@@ -3005,7 +2997,7 @@
                 <td data-cell="name">
                   <a href="/teams/419">unknownbbqrxx</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   117
                 </td>
@@ -3016,7 +3008,7 @@
                 <td data-cell="name">
                   <a href="/teams/612">ju5t_ch1ll_ctf</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   117
                 </td>
@@ -3027,7 +3019,7 @@
                 <td data-cell="name">
                   <a href="/teams/525">UIUCTF #1 FAN</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   117
                 </td>
@@ -3038,7 +3030,7 @@
                 <td data-cell="name">
                   <a href="/teams/492">oh-my-ctf</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   117
                 </td>
@@ -3049,7 +3041,7 @@
                 <td data-cell="name">
                   <a href="/teams/1024">choe</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   114
                 </td>
@@ -3060,7 +3052,7 @@
                 <td data-cell="name">
                   <a href="/teams/28">Resi</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   112
                 </td>
@@ -3071,7 +3063,7 @@
                 <td data-cell="name">
                   <a href="/teams/42">A1pha</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   112
                 </td>
@@ -3082,7 +3074,7 @@
                 <td data-cell="name">
                   <a href="/teams/689">C3rberus</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   112
                 </td>
@@ -3093,7 +3085,7 @@
                 <td data-cell="name">
                   <a href="/teams/572">yowezkan</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   112
                 </td>
@@ -3104,7 +3096,7 @@
                 <td data-cell="name">
                   <a href="/teams/294">ikykwk</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   112
                 </td>
@@ -3115,7 +3107,7 @@
                 <td data-cell="name">
                   <a href="/teams/685">Pwnissa</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   109
                 </td>
@@ -3126,7 +3118,7 @@
                 <td data-cell="name">
                   <a href="/teams/212">cakoi</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3137,7 +3129,7 @@
                 <td data-cell="name">
                   <a href="/teams/528">osinter</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3148,7 +3140,7 @@
                 <td data-cell="name">
                   <a href="/teams/393">qslg fans club</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3159,7 +3151,7 @@
                 <td data-cell="name">
                   <a href="/teams/300">S8</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3170,7 +3162,7 @@
                 <td data-cell="name">
                   <a href="/teams/416">dust</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3181,7 +3173,7 @@
                 <td data-cell="name">
                   <a href="/teams/275">Burbsec</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3192,7 +3184,7 @@
                 <td data-cell="name">
                   <a href="/teams/303">404</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3203,7 +3195,7 @@
                 <td data-cell="name">
                   <a href="/teams/79">+AstolfoALetto?</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3214,7 +3206,7 @@
                 <td data-cell="name">
                   <a href="/teams/387">GUBDYELUV</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3225,7 +3217,7 @@
                 <td data-cell="name">
                   <a href="/teams/577">HEAPT</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3236,7 +3228,7 @@
                 <td data-cell="name">
                   <a href="/teams/410">xiaowang666</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3247,7 +3239,7 @@
                 <td data-cell="name">
                   <a href="/teams/579">h1N</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3258,7 +3250,7 @@
                 <td data-cell="name">
                   <a href="/teams/119">Root_Access</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3269,7 +3261,7 @@
                 <td data-cell="name">
                   <a href="/teams/49">Neural Cyber Research and Intelligence Federation</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3280,7 +3272,7 @@
                 <td data-cell="name">
                   <a href="/teams/144">N0 LOGS</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3291,7 +3283,7 @@
                 <td data-cell="name">
                   <a href="/teams/466">0x16_pixel</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3302,7 +3294,7 @@
                 <td data-cell="name">
                   <a href="/teams/617">free_the_bnuuy</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3313,7 +3305,7 @@
                 <td data-cell="name">
                   <a href="/teams/327">DarkShadow</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3324,7 +3316,7 @@
                 <td data-cell="name">
                   <a href="/teams/107">akt</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3335,7 +3327,7 @@
                 <td data-cell="name">
                   <a href="/teams/199">matr1x</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3346,7 +3338,7 @@
                 <td data-cell="name">
                   <a href="/teams/380">Latvian Lattice Lovers</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3357,7 +3349,7 @@
                 <td data-cell="name">
                   <a href="/teams/668">c2ber</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3368,7 +3360,7 @@
                 <td data-cell="name">
                   <a href="/teams/150">shakir zufayri bin shaari</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3379,7 +3371,7 @@
                 <td data-cell="name">
                   <a href="/teams/307">Don&#39;t Know Everything</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3390,7 +3382,7 @@
                 <td data-cell="name">
                   <a href="/teams/688">t_h_</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3401,7 +3393,7 @@
                 <td data-cell="name">
                   <a href="/teams/470">Lychi.Seed</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3412,7 +3404,7 @@
                 <td data-cell="name">
                   <a href="/teams/437">RCEs</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3423,7 +3415,7 @@
                 <td data-cell="name">
                   <a href="/teams/205">evergreen</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3434,7 +3426,7 @@
                 <td data-cell="name">
                   <a href="/teams/203">CIHCORNrn</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3445,7 +3437,7 @@
                 <td data-cell="name">
                   <a href="/teams/260">Team Bitsec</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3456,7 +3448,7 @@
                 <td data-cell="name">
                   <a href="/teams/57">MBG_Koperasi_Desa</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3467,7 +3459,7 @@
                 <td data-cell="name">
                   <a href="/teams/778">git push force</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3478,7 +3470,7 @@
                 <td data-cell="name">
                   <a href="/teams/781">acube</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3489,7 +3481,7 @@
                 <td data-cell="name">
                   <a href="/teams/251">Professional_Noob</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3500,7 +3492,7 @@
                 <td data-cell="name">
                   <a href="/teams/65">Team Wargaye</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3511,7 +3503,7 @@
                 <td data-cell="name">
                   <a href="/teams/366">DirtyC0w</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3522,7 +3514,7 @@
                 <td data-cell="name">
                   <a href="/teams/792">0xT3s7</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3533,7 +3525,7 @@
                 <td data-cell="name">
                   <a href="/teams/802">Cache</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3544,7 +3536,7 @@
                 <td data-cell="name">
                   <a href="/teams/779">EachLove3</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3555,7 +3547,7 @@
                 <td data-cell="name">
                   <a href="/teams/833">dog4shell</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3566,7 +3558,7 @@
                 <td data-cell="name">
                   <a href="/teams/487">Wesserboy</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3577,7 +3569,7 @@
                 <td data-cell="name">
                   <a href="/teams/166">Kizz_0x16</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3588,7 +3580,7 @@
                 <td data-cell="name">
                   <a href="/teams/840">Y3ti@Sec</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3599,7 +3591,7 @@
                 <td data-cell="name">
                   <a href="/teams/417">jaejun835</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3610,7 +3602,7 @@
                 <td data-cell="name">
                   <a href="/teams/71">wayphone</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3621,7 +3613,7 @@
                 <td data-cell="name">
                   <a href="/teams/657">BiGDre9m</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3632,7 +3624,7 @@
                 <td data-cell="name">
                   <a href="/teams/565">GrimSec Ops</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3643,7 +3635,7 @@
                 <td data-cell="name">
                   <a href="/teams/453">cat_flag.txt</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3654,7 +3646,7 @@
                 <td data-cell="name">
                   <a href="/teams/464">BYU Cyberia</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3665,7 +3657,7 @@
                 <td data-cell="name">
                   <a href="/teams/864">H3XR41D</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3676,7 +3668,7 @@
                 <td data-cell="name">
                   <a href="/teams/45">SODIOS</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3687,7 +3679,7 @@
                 <td data-cell="name">
                   <a href="/teams/880">cyber_vuln_h4ck3r</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3698,7 +3690,7 @@
                 <td data-cell="name">
                   <a href="/teams/842">C0mp13x_7he0r3m!</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3709,7 +3701,7 @@
                 <td data-cell="name">
                   <a href="/teams/337">llammaaa</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3720,7 +3712,7 @@
                 <td data-cell="name">
                   <a href="/teams/483">GRT2026</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3731,7 +3723,7 @@
                 <td data-cell="name">
                   <a href="/teams/908">[T-SHP] VzDX</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3742,7 +3734,7 @@
                 <td data-cell="name">
                   <a href="/teams/550">chocobibi</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3753,7 +3745,7 @@
                 <td data-cell="name">
                   <a href="/teams/730">pr0minent</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3764,7 +3756,7 @@
                 <td data-cell="name">
                   <a href="/teams/412">Ç_Ç CYBERDIMENSION</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3775,7 +3767,7 @@
                 <td data-cell="name">
                   <a href="/teams/41">W3_4R3_KCS</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3786,7 +3778,7 @@
                 <td data-cell="name">
                   <a href="/teams/425">Mart1al</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3797,7 +3789,7 @@
                 <td data-cell="name">
                   <a href="/teams/915">a5a7</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3808,7 +3800,7 @@
                 <td data-cell="name">
                   <a href="/teams/712">HIDUP JOKOWIII</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3819,7 +3811,7 @@
                 <td data-cell="name">
                   <a href="/teams/987">SecMMA</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3830,7 +3822,7 @@
                 <td data-cell="name">
                   <a href="/teams/546">Simock</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3841,7 +3833,7 @@
                 <td data-cell="name">
                   <a href="/teams/369">Blue Lock Eleven</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3852,7 +3844,7 @@
                 <td data-cell="name">
                   <a href="/teams/1021">Maksos</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3863,7 +3855,7 @@
                 <td data-cell="name">
                   <a href="/teams/21">Pegasu$</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3874,7 +3866,7 @@
                 <td data-cell="name">
                   <a href="/teams/400">runc-clear</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3885,7 +3877,7 @@
                 <td data-cell="name">
                   <a href="/teams/17">ashkudishka228</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3896,7 +3888,7 @@
                 <td data-cell="name">
                   <a href="/teams/274">0x968</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3907,7 +3899,7 @@
                 <td data-cell="name">
                   <a href="/teams/875">nomadjmk</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   100
                 </td>
@@ -3918,7 +3910,7 @@
                 <td data-cell="name">
                   <a href="/teams/1048">D6ath E9ters</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   92
                 </td>
@@ -3929,7 +3921,7 @@
                 <td data-cell="name">
                   <a href="/teams/556">codex_sparxie_528516</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   88
                 </td>
@@ -3940,7 +3932,7 @@
                 <td data-cell="name">
                   <a href="/teams/867">HelloWorld</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   88
                 </td>
@@ -3951,7 +3943,7 @@
                 <td data-cell="name">
                   <a href="/teams/797">Just Try OSINT Maybe</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   83
                 </td>
@@ -3962,7 +3954,7 @@
                 <td data-cell="name">
                   <a href="/teams/799">sinduism</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   62
                 </td>
@@ -3973,7 +3965,7 @@
                 <td data-cell="name">
                   <a href="/teams/648">NVC</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   62
                 </td>
@@ -3984,7 +3976,7 @@
                 <td data-cell="name">
                   <a href="/teams/883">Joker&#39;s Bathroom</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   62
                 </td>
@@ -3995,7 +3987,7 @@
                 <td data-cell="name">
                   <a href="/teams/308">Bears of Unauthorised Access</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   62
                 </td>
@@ -4006,7 +3998,7 @@
                 <td data-cell="name">
                   <a href="/teams/153">endfield</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   62
                 </td>
@@ -4017,7 +4009,7 @@
                 <td data-cell="name">
                   <a href="/teams/1012">caspian</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   62
                 </td>
@@ -4028,7 +4020,7 @@
                 <td data-cell="name">
                   <a href="/teams/1042">XFDSHT</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   62
                 </td>
@@ -4039,7 +4031,7 @@
                 <td data-cell="name">
                   <a href="/teams/780">Ashen ones</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   58
                 </td>
@@ -4050,7 +4042,7 @@
                 <td data-cell="name">
                   <a href="/teams/215">مِــــنْــــسَــــف</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4061,7 +4053,7 @@
                 <td data-cell="name">
                   <a href="/teams/129">__bits_united</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4072,7 +4064,7 @@
                 <td data-cell="name">
                   <a href="/teams/421">Ford Ranger</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4083,7 +4075,7 @@
                 <td data-cell="name">
                   <a href="/teams/272">noraneco</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4094,7 +4086,7 @@
                 <td data-cell="name">
                   <a href="/teams/341">CoffeeConsumer</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4105,7 +4097,7 @@
                 <td data-cell="name">
                   <a href="/teams/329">ExploitX</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4116,7 +4108,7 @@
                 <td data-cell="name">
                   <a href="/teams/524">Xpl0it</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4127,7 +4119,7 @@
                 <td data-cell="name">
                   <a href="/teams/526">chiwawow</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4138,7 +4130,7 @@
                 <td data-cell="name">
                   <a href="/teams/293">Pleiades</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4149,7 +4141,7 @@
                 <td data-cell="name">
                   <a href="/teams/302">Wakabaz</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4160,7 +4152,7 @@
                 <td data-cell="name">
                   <a href="/teams/264">lykel</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4171,7 +4163,7 @@
                 <td data-cell="name">
                   <a href="/teams/219">awa</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4182,7 +4174,7 @@
                 <td data-cell="name">
                   <a href="/teams/457">TakeOnMe</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4193,7 +4185,7 @@
                 <td data-cell="name">
                   <a href="/teams/292">pizzagobblr</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4204,7 +4196,7 @@
                 <td data-cell="name">
                   <a href="/teams/535">AceOfHearts</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4215,7 +4207,7 @@
                 <td data-cell="name">
                   <a href="/teams/540">Executer Bombers</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4226,7 +4218,7 @@
                 <td data-cell="name">
                   <a href="/teams/85">M0DUL0</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4237,7 +4229,7 @@
                 <td data-cell="name">
                   <a href="/teams/263">losgladios</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4248,7 +4240,7 @@
                 <td data-cell="name">
                   <a href="/teams/298">sugarBoys</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4259,7 +4251,7 @@
                 <td data-cell="name">
                   <a href="/teams/405">NEpal U-20</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4270,7 +4262,7 @@
                 <td data-cell="name">
                   <a href="/teams/544">cursorsolve205_1</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4281,7 +4273,7 @@
                 <td data-cell="name">
                   <a href="/teams/295">JSoyke</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4292,7 +4284,7 @@
                 <td data-cell="name">
                   <a href="/teams/97">P4ND4S</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4303,7 +4295,7 @@
                 <td data-cell="name">
                   <a href="/teams/480">SanityChecker</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4314,7 +4306,7 @@
                 <td data-cell="name">
                   <a href="/teams/505">ramuel</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4325,7 +4317,7 @@
                 <td data-cell="name">
                   <a href="/teams/434">CHOKDEE</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4336,7 +4328,7 @@
                 <td data-cell="name">
                   <a href="/teams/578">@l0n3_w0lf</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4347,7 +4339,7 @@
                 <td data-cell="name">
                   <a href="/teams/379">p4ssw0rd_crack3r</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4358,7 +4350,7 @@
                 <td data-cell="name">
                   <a href="/teams/52">Saint Gracia</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4369,7 +4361,7 @@
                 <td data-cell="name">
                   <a href="/teams/582">Mito</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4380,7 +4372,7 @@
                 <td data-cell="name">
                   <a href="/teams/403">lopmade</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4391,7 +4383,7 @@
                 <td data-cell="name">
                   <a href="/teams/594">tapchoictf</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4402,7 +4394,7 @@
                 <td data-cell="name">
                   <a href="/teams/423">Celivanth</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4413,7 +4405,7 @@
                 <td data-cell="name">
                   <a href="/teams/591">Darkdead3301</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4424,7 +4416,7 @@
                 <td data-cell="name">
                   <a href="/teams/93">ZeroDay Knights</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4435,7 +4427,7 @@
                 <td data-cell="name">
                   <a href="/teams/319">Northampton</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4446,7 +4438,7 @@
                 <td data-cell="name">
                   <a href="/teams/600">Learning Is Fun!</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4457,7 +4449,7 @@
                 <td data-cell="name">
                   <a href="/teams/603">x3n_F0rc3</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4468,7 +4460,7 @@
                 <td data-cell="name">
                   <a href="/teams/604">beep boop bois</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4479,7 +4471,7 @@
                 <td data-cell="name">
                   <a href="/teams/64">R3d Ha1r 9irate$</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4490,7 +4482,7 @@
                 <td data-cell="name">
                   <a href="/teams/313">Billiard Boys</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4501,7 +4493,7 @@
                 <td data-cell="name">
                   <a href="/teams/139">MNT TEAM</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4512,7 +4504,7 @@
                 <td data-cell="name">
                   <a href="/teams/113">CK_Nameless</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4523,7 +4515,7 @@
                 <td data-cell="name">
                   <a href="/teams/607">Hexamorphia</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4534,7 +4526,7 @@
                 <td data-cell="name">
                   <a href="/teams/592">Spidy_007</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4545,7 +4537,7 @@
                 <td data-cell="name">
                   <a href="/teams/619">4r0wana</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4556,7 +4548,7 @@
                 <td data-cell="name">
                   <a href="/teams/207">tsl</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4567,7 +4559,7 @@
                 <td data-cell="name">
                   <a href="/teams/465">team exploiters</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4578,7 +4570,7 @@
                 <td data-cell="name">
                   <a href="/teams/324">s4m_s4p10l</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4589,7 +4581,7 @@
                 <td data-cell="name">
                   <a href="/teams/135">V3lux0rIV</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4600,7 +4592,7 @@
                 <td data-cell="name">
                   <a href="/teams/639">0xstrawhats</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4611,7 +4603,7 @@
                 <td data-cell="name">
                   <a href="/teams/221">qwerty</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4622,7 +4614,7 @@
                 <td data-cell="name">
                   <a href="/teams/644">Alexander</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4633,7 +4625,7 @@
                 <td data-cell="name">
                   <a href="/teams/645">Martial_Law_Enforcer</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4644,7 +4636,7 @@
                 <td data-cell="name">
                   <a href="/teams/227">legion</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4655,7 +4647,7 @@
                 <td data-cell="name">
                   <a href="/teams/420">girls band cry</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4666,7 +4658,7 @@
                 <td data-cell="name">
                   <a href="/teams/640">pwn_wizard</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4677,7 +4669,7 @@
                 <td data-cell="name">
                   <a href="/teams/432">Air2Shell</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4688,7 +4680,7 @@
                 <td data-cell="name">
                   <a href="/teams/652">NiceNiceNiceNice</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4699,7 +4691,7 @@
                 <td data-cell="name">
                   <a href="/teams/345">H0stctf</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4710,7 +4702,7 @@
                 <td data-cell="name">
                   <a href="/teams/415">3XPL0IT3RS - Sairam Institutions</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4721,7 +4713,7 @@
                 <td data-cell="name">
                   <a href="/teams/649">N1sh</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4732,7 +4724,7 @@
                 <td data-cell="name">
                   <a href="/teams/658">v</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4743,7 +4735,7 @@
                 <td data-cell="name">
                   <a href="/teams/427">ctf@iiitsm</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4754,7 +4746,7 @@
                 <td data-cell="name">
                   <a href="/teams/662">1_Sammurai</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4765,7 +4757,7 @@
                 <td data-cell="name">
                   <a href="/teams/611">B34r5hell</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4776,7 +4768,7 @@
                 <td data-cell="name">
                   <a href="/teams/254">ctfrrteam</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4787,7 +4779,7 @@
                 <td data-cell="name">
                   <a href="/teams/673">vodanhtieutep</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4798,7 +4790,7 @@
                 <td data-cell="name">
                   <a href="/teams/678">siwev11587@lanvos.com</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4809,7 +4801,7 @@
                 <td data-cell="name">
                   <a href="/teams/680">CPCSEC</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4820,7 +4812,7 @@
                 <td data-cell="name">
                   <a href="/teams/681">LM</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4831,7 +4823,7 @@
                 <td data-cell="name">
                   <a href="/teams/686">CipherPunk</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4842,7 +4834,7 @@
                 <td data-cell="name">
                   <a href="/teams/682">kkio</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4853,7 +4845,7 @@
                 <td data-cell="name">
                   <a href="/teams/61">redsti</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4864,7 +4856,7 @@
                 <td data-cell="name">
                   <a href="/teams/455">Shadow Panthers</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4875,7 +4867,7 @@
                 <td data-cell="name">
                   <a href="/teams/697">docks</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4886,7 +4878,7 @@
                 <td data-cell="name">
                   <a href="/teams/679">BorderOfLife</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4897,7 +4889,7 @@
                 <td data-cell="name">
                   <a href="/teams/700">blackade</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4908,7 +4900,7 @@
                 <td data-cell="name">
                   <a href="/teams/713">jimgav</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4919,7 +4911,7 @@
                 <td data-cell="name">
                   <a href="/teams/446">Crazys_Crack</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4930,7 +4922,7 @@
                 <td data-cell="name">
                   <a href="/teams/667">whoami</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4941,7 +4933,7 @@
                 <td data-cell="name">
                   <a href="/teams/585">R1yhtp</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4952,7 +4944,7 @@
                 <td data-cell="name">
                   <a href="/teams/269">L4_Br1g4rd_ph4nt0m</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4963,7 +4955,7 @@
                 <td data-cell="name">
                   <a href="/teams/752">ph4ntom</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4974,7 +4966,7 @@
                 <td data-cell="name">
                   <a href="/teams/489">BARRACUDA TEAM</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4985,7 +4977,7 @@
                 <td data-cell="name">
                   <a href="/teams/753">KunefeCanavarlari</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -4996,7 +4988,7 @@
                 <td data-cell="name">
                   <a href="/teams/739">SpiderMurphy</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5007,7 +4999,7 @@
                 <td data-cell="name">
                   <a href="/teams/741">XENON</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5018,7 +5010,7 @@
                 <td data-cell="name">
                   <a href="/teams/766">LegacyDregs</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5029,7 +5021,7 @@
                 <td data-cell="name">
                   <a href="/teams/749">dark_kernel</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5040,7 +5032,7 @@
                 <td data-cell="name">
                   <a href="/teams/740">Team=None</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5051,7 +5043,7 @@
                 <td data-cell="name">
                   <a href="/teams/350">IgelsCTF</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5062,7 +5054,7 @@
                 <td data-cell="name">
                   <a href="/teams/358">Touati Mohamed Amine</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5073,7 +5065,7 @@
                 <td data-cell="name">
                   <a href="/teams/40">black pearl</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5084,7 +5076,7 @@
                 <td data-cell="name">
                   <a href="/teams/775">Null Authority</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5095,7 +5087,7 @@
                 <td data-cell="name">
                   <a href="/teams/770">VGU_Cypher</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5106,7 +5098,7 @@
                 <td data-cell="name">
                   <a href="/teams/406">kittygeorgie</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5117,7 +5109,7 @@
                 <td data-cell="name">
                   <a href="/teams/715">fish</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5128,7 +5120,7 @@
                 <td data-cell="name">
                   <a href="/teams/787">s4870end</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5139,7 +5131,7 @@
                 <td data-cell="name">
                   <a href="/teams/794">0x56a</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5150,7 +5142,7 @@
                 <td data-cell="name">
                   <a href="/teams/242">NetCrawlers</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5161,7 +5153,7 @@
                 <td data-cell="name">
                   <a href="/teams/798">POWER</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5172,7 +5164,7 @@
                 <td data-cell="name">
                   <a href="/teams/809">Kobalt</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5183,7 +5175,7 @@
                 <td data-cell="name">
                   <a href="/teams/237">Shield_Tech</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5194,7 +5186,7 @@
                 <td data-cell="name">
                   <a href="/teams/810">organisers</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5205,7 +5197,7 @@
                 <td data-cell="name">
                   <a href="/teams/813">WhiteR4bb1t</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5216,7 +5208,7 @@
                 <td data-cell="name">
                   <a href="/teams/131">fzhshzh</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5227,7 +5219,7 @@
                 <td data-cell="name">
                   <a href="/teams/788">k0kos</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5238,7 +5230,7 @@
                 <td data-cell="name">
                   <a href="/teams/716">red13ua</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5249,7 +5241,7 @@
                 <td data-cell="name">
                   <a href="/teams/815">Hare Krishna</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5260,7 +5252,7 @@
                 <td data-cell="name">
                   <a href="/teams/832">m0unt41n</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5271,7 +5263,7 @@
                 <td data-cell="name">
                   <a href="/teams/374">cyhunter</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5282,7 +5274,7 @@
                 <td data-cell="name">
                   <a href="/teams/433">Soramaru</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5293,7 +5285,7 @@
                 <td data-cell="name">
                   <a href="/teams/849">laq</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5304,7 +5296,7 @@
                 <td data-cell="name">
                   <a href="/teams/847">puroclan</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5315,7 +5307,7 @@
                 <td data-cell="name">
                   <a href="/teams/854">TTT</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5326,7 +5318,7 @@
                 <td data-cell="name">
                   <a href="/teams/856">Guess What</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5337,7 +5329,7 @@
                 <td data-cell="name">
                   <a href="/teams/861">Distracted Squirrel</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5348,7 +5340,7 @@
                 <td data-cell="name">
                   <a href="/teams/859">trying . . .</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5359,7 +5351,7 @@
                 <td data-cell="name">
                   <a href="/teams/866">Sp3c0ps</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5370,7 +5362,7 @@
                 <td data-cell="name">
                   <a href="/teams/869">$&gt; echo $SOUL</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5381,7 +5373,7 @@
                 <td data-cell="name">
                   <a href="/teams/870">INSIDER-EYE</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5392,7 +5384,7 @@
                 <td data-cell="name">
                   <a href="/teams/413">forceful_entry</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5403,7 +5395,7 @@
                 <td data-cell="name">
                   <a href="/teams/494">SNHT</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5414,7 +5406,7 @@
                 <td data-cell="name">
                   <a href="/teams/886">4_l1tl3_c4t</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5425,7 +5417,7 @@
                 <td data-cell="name">
                   <a href="/teams/871">priya07</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5436,7 +5428,7 @@
                 <td data-cell="name">
                   <a href="/teams/839">Alfa69</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5447,7 +5439,7 @@
                 <td data-cell="name">
                   <a href="/teams/890">r3d_fl4g.cze</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5458,7 +5450,7 @@
                 <td data-cell="name">
                   <a href="/teams/888">NullNeko</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5469,7 +5461,7 @@
                 <td data-cell="name">
                   <a href="/teams/874">D4d</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5480,7 +5472,7 @@
                 <td data-cell="name">
                   <a href="/teams/877">ByteBandits</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5491,7 +5483,7 @@
                 <td data-cell="name">
                   <a href="/teams/460">FunCTF1234</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5502,7 +5494,7 @@
                 <td data-cell="name">
                   <a href="/teams/905">beginnerctfplayers</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5513,7 +5505,7 @@
                 <td data-cell="name">
                   <a href="/teams/904">Lolla &amp; za3bola</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5524,7 +5516,7 @@
                 <td data-cell="name">
                   <a href="/teams/925">bliss</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5535,7 +5527,7 @@
                 <td data-cell="name">
                   <a href="/teams/931">earthpig</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5546,7 +5538,7 @@
                 <td data-cell="name">
                   <a href="/teams/938">Peseta</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5557,7 +5549,7 @@
                 <td data-cell="name">
                   <a href="/teams/855">Hash-AK-Team</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5568,7 +5560,7 @@
                 <td data-cell="name">
                   <a href="/teams/947">justher0</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5579,7 +5571,7 @@
                 <td data-cell="name">
                   <a href="/teams/951">4M1Lu</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5590,7 +5582,7 @@
                 <td data-cell="name">
                   <a href="/teams/960">Fsociety</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5601,7 +5593,7 @@
                 <td data-cell="name">
                   <a href="/teams/958">D3AD_SH3LL</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5612,7 +5604,7 @@
                 <td data-cell="name">
                   <a href="/teams/961">MBG Bolu Ketan</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5623,7 +5615,7 @@
                 <td data-cell="name">
                   <a href="/teams/965">pip install flag</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5634,7 +5626,7 @@
                 <td data-cell="name">
                   <a href="/teams/969">zacsn12</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5645,7 +5637,7 @@
                 <td data-cell="name">
                   <a href="/teams/980">madagascar</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5656,7 +5648,7 @@
                 <td data-cell="name">
                   <a href="/teams/141">Waves</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5667,7 +5659,7 @@
                 <td data-cell="name">
                   <a href="/teams/1004">jarona</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5678,7 +5670,7 @@
                 <td data-cell="name">
                   <a href="/teams/1001">R00t</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5689,7 +5681,7 @@
                 <td data-cell="name">
                   <a href="/teams/1025">secF4n</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5700,7 +5692,7 @@
                 <td data-cell="name">
                   <a href="/teams/223">APEX CYPHER</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5711,7 +5703,7 @@
                 <td data-cell="name">
                   <a href="/teams/1028">B1t Z0mb1es</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5722,7 +5714,7 @@
                 <td data-cell="name">
                   <a href="/teams/74">Cyber_Naga</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5733,7 +5725,7 @@
                 <td data-cell="name">
                   <a href="/teams/1030">U</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5744,7 +5736,7 @@
                 <td data-cell="name">
                   <a href="/teams/1036">Mugesh</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5755,7 +5747,7 @@
                 <td data-cell="name">
                   <a href="/teams/706">Heavyexploiters</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5766,7 +5758,7 @@
                 <td data-cell="name">
                   <a href="/teams/1043">jing_burger_love</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5777,7 +5769,7 @@
                 <td data-cell="name">
                   <a href="/teams/968">aaaa</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5788,7 +5780,7 @@
                 <td data-cell="name">
                   <a href="/teams/542">Dark_Matter</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5799,7 +5791,7 @@
                 <td data-cell="name">
                   <a href="/teams/1010">ImcRsEQHoyac</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5810,7 +5802,7 @@
                 <td data-cell="name">
                   <a href="/teams/1068">The upside down</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5821,7 +5813,7 @@
                 <td data-cell="name">
                   <a href="/teams/1069">Gako</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5832,7 +5824,7 @@
                 <td data-cell="name">
                   <a href="/teams/511">R4nd0m B00l5h33t5 G0</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5843,7 +5835,7 @@
                 <td data-cell="name">
                   <a href="/teams/1074">chad17</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5854,7 +5846,7 @@
                 <td data-cell="name">
                   <a href="/teams/1107">The Winners</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5865,7 +5857,7 @@
                 <td data-cell="name">
                   <a href="/teams/1113">SpeedyGoose</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   50
                 </td>
@@ -5876,7 +5868,7 @@
                 <td data-cell="name">
                   <a href="/teams/687">PHANTASMOON_RETRY_1786171990916</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   40
                 </td>
@@ -5887,7 +5879,7 @@
                 <td data-cell="name">
                   <a href="/teams/126">4fk</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   35
                 </td>
@@ -5898,7 +5890,7 @@
                 <td data-cell="name">
                   <a href="/teams/561">robots-clank</a>
                 </td>
-                
+
                 <td class="text-right font-bold" data-cell="score">
                   20
                 </td>
@@ -5906,6 +5898,6 @@
         </tbody>
       </table><script type="module">var e=3e4,t=`scoreboard-reloaded`,n=(document.querySelector(`meta[name="ctfd-api-base"]`)?.content||`/ctfd/api/v1`).replace(/\/$/,``),r=document.querySelector(`#scoreboard`),i=r?.querySelector(`tbody`)??null,a=[`bg-highlight-green`,`bg-highlight-blue`,`bg-highlight-pink`],o=Number(r?.dataset.division)||null,s=!!r?.querySelector(`[data-cell="division"]`),c=e=>e.toLocaleString(`en-US`),l=(e,t)=>{e.textContent!==t&&(e.textContent=t)};function u(e){let t=document.createElement(`tr`);t.dataset.account=String(e.account_id);let n=document.createElement(`td`);n.className=`text-right font-bold`,n.dataset.cell=`pos`;let r=document.createElement(`td`);r.dataset.cell=`name`;let i=document.createElement(`a`);if(i.href=`/teams/${e.account_id}`,r.append(i),t.append(n,r),s){let e=document.createElement(`td`);e.className=`max-sm:hidden`,e.dataset.cell=`division`,t.append(e)}let a=document.createElement(`td`);return a.className=`text-right font-bold`,a.dataset.cell=`score`,t.append(a),t}function d(e){let t=e.filter(e=>!o||e.bracket_id===o).sort((e,t)=>e.pos-t.pos);for(t.forEach((e,t)=>{let n=i.querySelector(`tr[data-account="${e.account_id}"]`)??u(e),r=o?t+1:e.pos;l(n.querySelector(`[data-cell="pos"]`),String(r)),l(n.querySelector(`[data-cell="name"] a`),e.name),l(n.querySelector(`[data-cell="score"]`),e.score==null?`-`:c(e.score));let s=n.querySelector(`[data-cell="division"]`);s&&l(s,e.bracket_name??``),a.forEach((e,t)=>n.classList.toggle(e,r===t+1)),i.children[t]!==n&&i.insertBefore(n,i.children[t]??null)});i.children.length>t.length;)i.lastElementChild.remove()}var f=()=>{try{return sessionStorage.getItem(t)===`1`}catch{return!0}},p=()=>{try{sessionStorage.setItem(t,`1`)}catch{}},m=!1;async function h(){if(!m){m=!0;try{let e=await fetch(`${n}/scoreboard`,{headers:{accept:`application/json`},credentials:`same-origin`}),t=await e.json();if(!e.ok||!t.success||!Array.isArray(t.data))return;i?d(t.data):t.data.length>0&&!f()&&(p(),window.location.reload())}catch{}finally{m=!1}}}if(i)try{sessionStorage.removeItem(t)}catch{}var g=window.setInterval(h,e);document.addEventListener(`visibilitychange`,()=>{document.hidden?window.clearInterval(g):(h(),g=window.setInterval(h,e))});</script>
     </main>
-    
+
     <script type="module">var e=e=>Array.from(e.elements).filter(e=>e instanceof HTMLButtonElement&&e.type===`submit`||e instanceof HTMLInputElement&&[`submit`,`image`].includes(e.type));function t(t){delete t.dataset.submitting,t.removeAttribute(`aria-busy`),e(t).forEach(e=>{e.dataset.submitGuardDisabled===`true`&&(e.disabled=!1,delete e.dataset.submitGuardDisabled)})}document.addEventListener(`submit`,n=>{if(!(n.target instanceof HTMLFormElement)||n.target.method.toLowerCase()!==`post`)return;let r=n.target;if(r.dataset.submitting===`true`){n.preventDefault();return}n.defaultPrevented||(r.dataset.submitting=`true`,r.setAttribute(`aria-busy`,`true`),e(r).forEach(e=>{e.disabled||(e.disabled=!0,e.dataset.submitGuardDisabled=`true`)}),queueMicrotask(()=>{n.defaultPrevented&&t(r)}))}),window.addEventListener(`pageshow`,e=>{e.persisted&&document.querySelectorAll(`form[data-submitting="true"]`).forEach(t)});</script></body>
 </html>

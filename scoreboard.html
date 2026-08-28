@@ -8,7 +8,7 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="theme-color" content="#f5f0d9">
   <meta name="ctfd-api-base" content="/ctfd/api/v1">
-  
+
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
@@ -46,14 +46,10 @@
       <a href="/challenges" class="px-2.5 py-1 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Challenges</a><a href="/scoreboard" class="px-2.5 py-1 font-bold no-underline bg-ink text-paper"><span class="sr-only">Current page: </span>Scoreboard</a><a href="/users" class="px-2.5 py-1 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Users</a><a href="/teams" class="px-2.5 py-1 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Teams</a>
     </nav>
     <div class="ms-auto flex items-center gap-x-3 max-lg:hidden">
-      
-            <a href="/login" class="px-2.5 py-1 font-bold text-ink no-underline hover:bg-accent-blue hover:text-paper">
-              Log in
-            </a>
-            <a href="/register" class="btn btn-red px-2.5! py-1!">
-              Register
-            </a>
-          
+
+
+
+
     </div>
 
     <details class="relative ms-auto lg:hidden" id="nav-menu">
@@ -63,14 +59,10 @@
           <a href="/challenges" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Challenges</a><a href="/scoreboard" class="block px-3.5 py-2.5 font-bold no-underline bg-ink text-paper">Scoreboard</a><a href="/users" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Users</a><a href="/teams" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Teams</a>
         </nav>
         <div class="grid border-t-2 border-ink">
-          
-                <a href="/login" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">
-                  Log in
-                </a>
-                <a href="/register" class="block bg-accent-red px-3.5 py-2.5 text-center font-bold text-paper no-underline hover:bg-highlight-pink hover:text-ink">
-                  Register
-                </a>
-              
+
+
+
+
         </div>
       </div>
     </details>
@@ -79,7 +71,7 @@
 
 <script type="module">var e=document.querySelector(`#nav-menu`);e&&(document.addEventListener(`click`,t=>{e.open&&t.target instanceof Node&&!e.contains(t.target)&&(e.open=!1)}),document.addEventListener(`keydown`,t=>{t.key===`Escape`&&e.open&&(e.open=!1)}));</script>
     <main id="main" class="mx-auto w-full grow px-4 pt-8 pb-20 text-lg leading-relaxed lg:text-xl max-w-[880px]">
-      
+
   <header class="mt-2 mb-9">
   <h1 class="h-page">Scoreboard</h1>
   <nav aria-label="Division" class="mt-5 flex flex-wrap items-center gap-2">
@@ -7233,6 +7225,6 @@
         </tbody>
       </table><script type="module">var e=3e4,t=`scoreboard-reloaded`,n=(document.querySelector(`meta[name="ctfd-api-base"]`)?.content||`/ctfd/api/v1`).replace(/\/$/,``),r=document.querySelector(`#scoreboard`),i=r?.querySelector(`tbody`)??null,a=[`bg-highlight-green`,`bg-highlight-blue`,`bg-highlight-pink`],o=Number(r?.dataset.division)||null,s=!!r?.querySelector(`[data-cell="division"]`),c=e=>e.toLocaleString(`en-US`),l=(e,t)=>{e.textContent!==t&&(e.textContent=t)};function u(e){let t=document.createElement(`tr`);t.dataset.account=String(e.account_id);let n=document.createElement(`td`);n.className=`text-right font-bold`,n.dataset.cell=`pos`;let r=document.createElement(`td`);r.dataset.cell=`name`;let i=document.createElement(`a`);if(i.href=`/teams/${e.account_id}`,r.append(i),t.append(n,r),s){let e=document.createElement(`td`);e.className=`max-sm:hidden`,e.dataset.cell=`division`,t.append(e)}let a=document.createElement(`td`);return a.className=`text-right font-bold`,a.dataset.cell=`score`,t.append(a),t}function d(e){let t=e.filter(e=>!o||e.bracket_id===o).sort((e,t)=>e.pos-t.pos);for(t.forEach((e,t)=>{let n=i.querySelector(`tr[data-account="${e.account_id}"]`)??u(e),r=o?t+1:e.pos;l(n.querySelector(`[data-cell="pos"]`),String(r)),l(n.querySelector(`[data-cell="name"] a`),e.name),l(n.querySelector(`[data-cell="score"]`),e.score==null?`-`:c(e.score));let s=n.querySelector(`[data-cell="division"]`);s&&l(s,e.bracket_name??``),a.forEach((e,t)=>n.classList.toggle(e,r===t+1)),i.children[t]!==n&&i.insertBefore(n,i.children[t]??null)});i.children.length>t.length;)i.lastElementChild.remove()}var f=()=>{try{return sessionStorage.getItem(t)===`1`}catch{return!0}},p=()=>{try{sessionStorage.setItem(t,`1`)}catch{}},m=!1;async function h(){if(!m){m=!0;try{let e=await fetch(`${n}/scoreboard`,{headers:{accept:`application/json`},credentials:`same-origin`}),t=await e.json();if(!e.ok||!t.success||!Array.isArray(t.data))return;i?d(t.data):t.data.length>0&&!f()&&(p(),window.location.reload())}catch{}finally{m=!1}}}if(i)try{sessionStorage.removeItem(t)}catch{}var g=window.setInterval(h,e);document.addEventListener(`visibilitychange`,()=>{document.hidden?window.clearInterval(g):(h(),g=window.setInterval(h,e))});</script>
     </main>
-    
+
     <script type="module">var e=e=>Array.from(e.elements).filter(e=>e instanceof HTMLButtonElement&&e.type===`submit`||e instanceof HTMLInputElement&&[`submit`,`image`].includes(e.type));function t(t){delete t.dataset.submitting,t.removeAttribute(`aria-busy`),e(t).forEach(e=>{e.dataset.submitGuardDisabled===`true`&&(e.disabled=!1,delete e.dataset.submitGuardDisabled)})}document.addEventListener(`submit`,n=>{if(!(n.target instanceof HTMLFormElement)||n.target.method.toLowerCase()!==`post`)return;let r=n.target;if(r.dataset.submitting===`true`){n.preventDefault();return}n.defaultPrevented||(r.dataset.submitting=`true`,r.setAttribute(`aria-busy`,`true`),e(r).forEach(e=>{e.disabled||(e.disabled=!0,e.dataset.submitGuardDisabled=`true`)}),queueMicrotask(()=>{n.defaultPrevented&&t(r)}))}),window.addEventListener(`pageshow`,e=>{e.persisted&&document.querySelectorAll(`form[data-submitting="true"]`).forEach(t)});</script></body>
 </html>
