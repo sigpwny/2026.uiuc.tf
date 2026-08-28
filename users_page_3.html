@@ -13,24 +13,24 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="canonical" href="https://2026.uiuc.tf/teams">
+  <link rel="canonical" href="https://2026.uiuc.tf/users">
   <link rel="preload" href="/fonts/RobotoCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Aileron-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Aileron-Bold.woff2" as="font" type="font/woff2" crossorigin>
-  <title>Teams - UIUCTF 2026</title>
-  <meta name="title" content="Teams - UIUCTF 2026">
-  <meta name="description" content="The orders questing together in UIUCTF 2026.">
+  <title>Users - UIUCTF 2026</title>
+  <meta name="title" content="Users - UIUCTF 2026">
+  <meta name="description" content="Every adventurer registered for UIUCTF 2026.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="UIUCTF 2026">
-  <meta property="og:url" content="https://2026.uiuc.tf/teams">
-  <meta property="og:title" content="Teams - UIUCTF 2026">
-  <meta property="og:description" content="The orders questing together in UIUCTF 2026.">
+  <meta property="og:url" content="https://2026.uiuc.tf/users">
+  <meta property="og:title" content="Users - UIUCTF 2026">
+  <meta property="og:description" content="Every adventurer registered for UIUCTF 2026.">
   <meta property="og:image" content="https://2026.uiuc.tf/images/logo-512x512.png">
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:site" content="@sigpwny">
-  <meta property="twitter:url" content="https://2026.uiuc.tf/teams">
-  <meta property="twitter:title" content="Teams - UIUCTF 2026">
-  <meta property="twitter:description" content="The orders questing together in UIUCTF 2026.">
+  <meta property="twitter:url" content="https://2026.uiuc.tf/users">
+  <meta property="twitter:title" content="Users - UIUCTF 2026">
+  <meta property="twitter:description" content="Every adventurer registered for UIUCTF 2026.">
   <meta property="twitter:image" content="https://2026.uiuc.tf/images/logo-512x512.png">
 <link rel="stylesheet" href="/_astro/Base.BJVziSsw.css"></head>
   <body class="m-0 flex min-h-screen flex-col bg-paper font-sans font-normal font-stretch-condensed tracking-[-0.015em] text-ink">
@@ -43,7 +43,7 @@
     </a>
 
     <nav aria-label="Primary" class="flex flex-wrap items-center max-lg:hidden">
-      <a href="/challenges" class="px-2.5 py-1 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Challenges</a><a href="/scoreboard" class="px-2.5 py-1 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Scoreboard</a><a href="/users" class="px-2.5 py-1 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Users</a><a href="/teams" class="px-2.5 py-1 font-bold no-underline bg-ink text-paper"><span class="sr-only">Current page: </span>Teams</a>
+      <a href="/challenges" class="px-2.5 py-1 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Challenges</a><a href="/scoreboard" class="px-2.5 py-1 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Scoreboard</a><a href="/users" class="px-2.5 py-1 font-bold no-underline bg-ink text-paper"><span class="sr-only">Current page: </span>Users</a><a href="/teams" class="px-2.5 py-1 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Teams</a>
     </nav>
     <div class="ms-auto flex items-center gap-x-3 max-lg:hidden">
       
@@ -60,7 +60,7 @@
       <summary class="btn btn-ink cursor-pointer list-none px-3! py-1.5! select-none marker:content-[''] [&amp;::-webkit-details-marker]:hidden">Menu</summary>
       <div class="absolute top-full right-0 z-50 mt-2 min-w-[230px] border-2 border-ink bg-paper">
         <nav aria-label="Primary" class="grid">
-          <a href="/challenges" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Challenges</a><a href="/scoreboard" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Scoreboard</a><a href="/users" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Users</a><a href="/teams" class="block px-3.5 py-2.5 font-bold no-underline bg-ink text-paper">Teams</a>
+          <a href="/challenges" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Challenges</a><a href="/scoreboard" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Scoreboard</a><a href="/users" class="block px-3.5 py-2.5 font-bold no-underline bg-ink text-paper">Users</a><a href="/teams" class="block px-3.5 py-2.5 font-bold no-underline text-ink hover:bg-accent-blue hover:text-paper">Teams</a>
         </nav>
         <div class="grid border-t-2 border-ink">
           
@@ -81,13 +81,14 @@
     <main id="main" class="mx-auto w-full grow px-4 pt-8 pb-20 text-lg leading-relaxed lg:text-xl max-w-[880px]">
       
   <header class="mt-2 mb-9">
-  <h1 class="h-page">Orders</h1>
+  <h1 class="h-page">Adventurers</h1>
   
 </header>
 
   <table class="manual-table">
         <thead>
           <tr>
+            <th>Adventurer</th>
             <th>Order</th>
             <th class="max-md:hidden">Affiliation</th>
             <th class="max-sm:hidden">Country</th>
@@ -96,191 +97,8 @@
         <tbody>
           <tr>
               <td>
-                <a href="/teams/2">player</a>
+                <a href="/users/104">Memlan</a>
               </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/3">YunSee</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/4">Ganesh</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/5">Alan Walker #1 Fan</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/6">chppi</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/7">tuxops</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/8">TeamSoloQ9921</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/9">Buck_Overflow</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/10">oogways</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/11">c4n0cch4n</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/12">LockIn Box</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/13">0∃HϽ¯0Ꞁ</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/14">exploiitm</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/15">C0mp13x_7he0r3m</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/16">EDISEC</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/17">ashkudishka228</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/18">Pluto</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/19">CyberFire</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/20">Sudo_Siblings</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/21">Pegasu$</a>
-              </td>
-              <td class="max-md:hidden">SKCET</td>
-              <td class="max-sm:hidden">India</td>
-            </tr><tr>
-              <td>
-                <a href="/teams/22">M3RC3N4RY</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/23">sys_adm1ns</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/25">XYPH3R</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/26">spikeOne</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/27">Diviriksas</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden">Lithuania</td>
-            </tr><tr>
-              <td>
-                <a href="/teams/28">Resi</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/29">PİTO EDUBOUNTY</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/30">paddystinian</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden">Ireland</td>
-            </tr><tr>
-              <td>
-                <a href="/teams/31">Cobra</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/32">hi</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/33">Abdelrahman</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
               <td>
                 <a href="/teams/34">Kokoci</a>
               </td>
@@ -288,83 +106,53 @@
               <td class="max-sm:hidden"></td>
             </tr><tr>
               <td>
-                <a href="/teams/35">cupcakes</a>
+                <a href="/users/105">Ak-Hacker</a>
+              </td>
+              <td>
+                <a href="/teams/62">Cyberroot</a>
               </td>
               <td class="max-md:hidden"></td>
               <td class="max-sm:hidden"></td>
             </tr><tr>
               <td>
-                <a href="/teams/36">TandaApapun</a>
+                <a href="/users/106">ZishanHack</a>
               </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden">China</td>
-            </tr><tr>
               <td>
-                <a href="/teams/37">dcua</a>
+                <a href="/teams/63">ZishanHack</a>
               </td>
               <td class="max-md:hidden"></td>
               <td class="max-sm:hidden"></td>
             </tr><tr>
               <td>
-                <a href="/teams/38">Nattt</a>
+                <a href="/users/107">rony</a>
+              </td>
+              <td>
+                <a href="/teams/64">R3d Ha1r 9irate$</a>
               </td>
               <td class="max-md:hidden"></td>
               <td class="max-sm:hidden"></td>
             </tr><tr>
               <td>
-                <a href="/teams/39">The_First_Flag</a>
+                <a href="/users/108">Sudo-Zaid</a>
+              </td>
+              <td>
+                <a href="/teams/65">Team Wargaye</a>
               </td>
               <td class="max-md:hidden"></td>
               <td class="max-sm:hidden"></td>
             </tr><tr>
               <td>
-                <a href="/teams/40">black pearl</a>
+                <a href="/users/109">Displeased Jester</a>
+              </td>
+              <td>
+                <a href="/teams/66">bEEf Eating vEgan</a>
               </td>
               <td class="max-md:hidden"></td>
               <td class="max-sm:hidden"></td>
             </tr><tr>
               <td>
-                <a href="/teams/41">W3_4R3_KCS</a>
+                <a href="/users/110">yubin</a>
               </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/42">A1pha</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/43">GPT-1110v2</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/44">h4ckerb4cks</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/45">SODIOS</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/46">Bidoof Cult</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
-              <td>
-                <a href="/teams/47">El Sindicato Binario</a>
-              </td>
-              <td class="max-md:hidden"></td>
-              <td class="max-sm:hidden"></td>
-            </tr><tr>
               <td>
                 <a href="/teams/48">T34M ROOKIE</a>
               </td>
@@ -372,36 +160,401 @@
               <td class="max-sm:hidden"></td>
             </tr><tr>
               <td>
-                <a href="/teams/49">Neural Cyber Research and Intelligence Federation</a>
+                <a href="/users/111">r4kapig_player</a>
+              </td>
+              <td>
+                <a href="/teams/67">no rev/pwn no life</a>
               </td>
               <td class="max-md:hidden"></td>
               <td class="max-sm:hidden"></td>
             </tr><tr>
               <td>
-                <a href="/teams/50">Spectrums</a>
+                <a href="/users/112">afzan32</a>
+              </td>
+              <td>
+                <a href="/teams/62">Cyberroot</a>
               </td>
               <td class="max-md:hidden"></td>
               <td class="max-sm:hidden"></td>
             </tr><tr>
               <td>
-                <a href="/teams/51">NuttyShell</a>
+                <a href="/users/113">Cahmiw</a>
+              </td>
+              <td>
+                <a href="/teams/68">Helpdesk warriors</a>
               </td>
               <td class="max-md:hidden"></td>
               <td class="max-sm:hidden"></td>
             </tr><tr>
               <td>
-                <a href="/teams/52">Saint Gracia</a>
+                <a href="/users/114">NullNebula05</a>
+              </td>
+              <td>
+                <a href="/teams/69">NullNebula05</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/115">Rubika M</a>
+              </td>
+              <td>
+                <a href="/teams/70">Ctf</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/116">wayphone_XD</a>
+              </td>
+              <td>
+                <a href="/teams/71">wayphone</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/117">Venom_Cobra</a>
+              </td>
+              <td>
+                <a href="/teams/72">0xBlackOps</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/118">ancient chinese skibidi toilet</a>
+              </td>
+              <td>
+                <a href="/teams/393">qslg fans club</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/119">Saad Ansari</a>
+              </td>
+              <td>
+                <a href="/teams/73">Saad_solo_hacker</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/120">ashe</a>
+              </td>
+              <td>
+                
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/121">lmiles11</a>
+              </td>
+              <td>
+                <a href="/teams/66">bEEf Eating vEgan</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/122">Red_Z</a>
+              </td>
+              <td>
+                <a href="/teams/74">Cyber_Naga</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden">Myanmar (Burma)</td>
+            </tr><tr>
+              <td>
+                <a href="/users/123">0xSultanM</a>
+              </td>
+              <td>
+                <a href="/teams/75">0xGhost</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/124">1nf1n1ty</a>
+              </td>
+              <td>
+                <a href="/teams/76">1nf1n1ty</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/125">Muntasir_404</a>
+              </td>
+              <td>
+                <a href="/teams/75">0xGhost</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/126">Shruti Verma</a>
+              </td>
+              <td>
+                
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/127">NicPWNs</a>
+              </td>
+              <td>
+                <a href="/teams/77">PWNpro</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden">United States</td>
+            </tr><tr>
+              <td>
+                <a href="/users/128">R1ga21</a>
+              </td>
+              <td>
+                <a href="/teams/78">Aceconeros</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/129">Hyvnso0</a>
+              </td>
+              <td>
+                <a href="/teams/78">Aceconeros</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/130">Ho Minh Nhat Nguyen</a>
+              </td>
+              <td>
+                <a href="/teams/80">WeLoveSadieSink</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/131">Alexct549</a>
+              </td>
+              <td>
+                <a href="/teams/79">+AstolfoALetto?</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/132">almadalama</a>
+              </td>
+              <td>
+                <a href="/teams/80">WeLoveSadieSink</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/133">zotti</a>
+              </td>
+              <td>
+                
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/134">Knock0ut</a>
+              </td>
+              <td>
+                <a href="/teams/81">TruthBTold</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/135">LaraCroft</a>
+              </td>
+              <td>
+                
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/136">been</a>
+              </td>
+              <td>
+                <a href="/teams/48">T34M ROOKIE</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/137">kurusuwa</a>
+              </td>
+              <td>
+                <a href="/teams/80">WeLoveSadieSink</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/138">om1xed</a>
+              </td>
+              <td>
+                <a href="/teams/60">Zer0Clues</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/139">MarcusChang</a>
+              </td>
+              <td>
+                <a href="/teams/60">Zer0Clues</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/140">Joseph</a>
+              </td>
+              <td>
+                <a href="/teams/80">WeLoveSadieSink</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/141">c500cyber</a>
+              </td>
+              <td>
+                <a href="/teams/82">c500cyber</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/142">SURENDIRAN  B J</a>
+              </td>
+              <td>
+                <a href="/teams/72">0xBlackOps</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/143">sanhex</a>
+              </td>
+              <td>
+                <a href="/teams/83">RootSec</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/144">drogonarmy</a>
+              </td>
+              <td>
+                <a href="/teams/84">drogonarmy</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/145">gluppler</a>
+              </td>
+              <td>
+                <a href="/teams/85">M0DUL0</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden">Malaysia</td>
+            </tr><tr>
+              <td>
+                <a href="/users/146">tyluudinh</a>
+              </td>
+              <td>
+                <a href="/teams/86">vuotnganchonggai</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/147">tuonghk</a>
+              </td>
+              <td>
+                <a href="/teams/86">vuotnganchonggai</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/148">POWER</a>
+              </td>
+              <td>
+                <a href="/teams/798">POWER</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/149">verifly</a>
+              </td>
+              <td>
+                <a href="/teams/87">victory</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/150">ArkarHtet</a>
+              </td>
+              <td>
+                <a href="/teams/88">ArkarHtet</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/151">GodLYE</a>
+              </td>
+              <td>
+                <a href="/teams/80">WeLoveSadieSink</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/152">nuha</a>
+              </td>
+              <td>
+                <a href="/teams/89">[KOR] RedSec</a>
+              </td>
+              <td class="max-md:hidden"></td>
+              <td class="max-sm:hidden"></td>
+            </tr><tr>
+              <td>
+                <a href="/users/153">Kai_HT</a>
+              </td>
+              <td>
+                <a href="/teams/89">[KOR] RedSec</a>
               </td>
               <td class="max-md:hidden"></td>
               <td class="max-sm:hidden"></td>
             </tr>
         </tbody>
       </table><nav aria-label="Pagination" class="mt-7 flex items-center gap-4">
-      <span class="btn cursor-default! bg-paper-edge px-3! py-1.5! text-base! text-ink/45">Previous</span>
+      <a class="btn btn-ink px-3! py-1.5! text-base!" href="/users_page_2">
+          Previous
+        </a>
       <span class="text-base">
-        Page 1 of 24
+        Page 3 of 49
       </span>
-      <a class="btn btn-ink px-3! py-1.5! text-base!" href="/teams_page_2">
+      <a class="btn btn-ink px-3! py-1.5! text-base!" href="/users_page_4">
           Next
         </a>
     </nav>
